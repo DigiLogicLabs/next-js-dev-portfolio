@@ -9,7 +9,7 @@ const Resume = () => {
           open
           className="cursor-pointer border border-gray-400 rounded-lg hover:shadow-md hover:border-opacity-0 transform hover:-translate-y-1 transition-all duration-200"
         >
-          <summary className="font-semibold p-2 text-2xl">Software Developer</summary>
+          <summary className="font-semibold p-2 text-2xl">Software Engineer</summary>
           <div
             className="
               container
