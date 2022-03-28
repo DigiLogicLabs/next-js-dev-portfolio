@@ -578,7 +578,7 @@ export const projects: IProject[] = [
     image_path: "/images/ue5.png",
     deployed_url: "!#",
     github_url: "!#",
-    category: ["unrealengine"],
+    category: ["ue5"],
     description:
       'Utilizing best practices for UE4 C++ clean code architecture including public/private folders for headers and source files, events/delegates for broadcasting events to the UI, and OOP principles like inheritance/polymorphism.',
     key_techs: [

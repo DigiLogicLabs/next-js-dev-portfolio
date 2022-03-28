@@ -58,4 +58,4 @@ export interface SideBarIcon {
   style?: CSSProperties;
 }
 
-export type Category = "react" | "node" | "blockchain" | "c#" | "angular" | "azure" | "wordpress" | "unrealengine";
+export type Category = "react" | "node" | "blockchain" | "c#" | "angular" | "azure" | "wordpress" | "ue5";

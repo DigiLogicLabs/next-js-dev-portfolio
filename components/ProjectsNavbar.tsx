@@ -25,7 +25,7 @@ const ProjectsNavbar: FunctionComponent<{
       <NavItem value="all" {...props} />
       <NavItem value="react" {...props} />
       <NavItem value="blockchain" {...props} />
-      <NavItem value="unrealengine" {...props} />
+      <NavItem value="ue5" {...props} />
       <NavItem value="c#" {...props} />
       <NavItem value="node" {...props} />
       <NavItem value="angular" {...props} />
