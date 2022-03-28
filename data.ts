@@ -499,7 +499,7 @@ export const projects: IProject[] = [
     name: "Roots App",
     description:
       "This app is an administrator app meant for seting up proprietary hardware devices - linked to Azure authentication. Example page posted to github.",
-    image_path: "/images/roots.png",
+    image_path: "/images/roots-login.png",
     deployed_url: "https://test.admin.earthscout.com",
     github_url: "https://github.com/csharpener22/B2C-IEF-Custom-Policies-LocalwithTOS.git",
     category: ["angular"],
@@ -507,7 +507,7 @@ export const projects: IProject[] = [
   },
   {
     name: "B2C Login Policies",
-    image_path: "/images/b2c.png",
+    image_path: "/images/earthscout-login.png",
     deployed_url: "https://scout.earthscout.com/",
     github_url: "https://github.com/csharpener22/B2C-IEF-Custom-Policies-LocalwithTOS.git",
     category: ["azure"],
@@ -532,7 +532,7 @@ export const projects: IProject[] = [
 
   {
     name: "Next.js Portfolio",
-    image_path: "/images/portfolio.png",
+    image_path: "/images/self.png",
     deployed_url: "https://next-js-dev-portfolio.vercel.app/projects",
     github_url: "https://github.com/csharpener22/next-js-dev-portfolio",
     category: ["node", "react"],
@@ -543,7 +543,7 @@ export const projects: IProject[] = [
 
   {
     name: "The Poster Children",
-    image_path: "/images/tpc.png",
+    image_path: "/images/tpc-main.png",
     deployed_url: "http://www.theposterchildren.com/",
     github_url: "https://github.com/csharpener22",
     category: ["wordpress"],
