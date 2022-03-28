@@ -532,7 +532,7 @@ export const projects: IProject[] = [
 
   {
     name: "Next.js Portfolio",
-    image_path: "/images/self.png",
+    image_path: "/images/portfolio.png",
     deployed_url: "https://next-js-dev-portfolio.vercel.app/projects",
     github_url: "https://github.com/csharpener22/next-js-dev-portfolio",
     category: ["node", "react"],
@@ -543,7 +543,7 @@ export const projects: IProject[] = [
 
   {
     name: "The Poster Children",
-    image_path: "/images/tpc-main.png",
+    image_path: "/images/tpc.png",
     deployed_url: "http://www.theposterchildren.com/",
     github_url: "https://github.com/csharpener22",
     category: ["wordpress"],
