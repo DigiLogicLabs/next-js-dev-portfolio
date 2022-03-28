@@ -81,6 +81,14 @@ export const services: Service[] = [
     tags: ['B2C', 'IEF', 'Auth']
   },
   {
+    Icon: FaGamepad,
+    title: "UE4/UE5 C++",
+    about:
+      "Utilizing best practices for UE4/UE5 C++ clean code architecture including public/private folders for headers and source files, events/delegates for broadcasting events to the UI, and OOP principles like inheritance/polymorphism.",
+      url: '/images/ue5.png',
+    tags: ['UE4', 'UE5', 'C++', 'Blueprints']
+  },
+  {
     Icon: FaAtlassian,
     title: "Atlassian Tools",
     about: "Create, manage, and maintain Azure Architecture following current best practices (Hosted by Microsoft docs) like <b>Subscriptions and permissions</b>, <b>Resource Groups</b>  and <b>Service hosting</b> ",
@@ -110,14 +118,6 @@ export const services: Service[] = [
       "Albeton Live 11 is my current DAW of choice for all stages of music production from staging, instrumentation, mixing, and mastering audio. I have experience with EDM, Rap, Trap, and Audio Books.",
       url: '/images/ableton-live-11.jpg',
     tags: ['ALS 10', 'ALS 11', 'Logix Pro X', 'DAWs', 'Meta Sounds UE5']
-  },
-  {
-    Icon: FaGamepad,
-    title: "UE4 C++",
-    about:
-      "UE4 C++ is great for data visualization and experimentation through code. A great medium that allows artists and programmers to set up scenes, games, renders, and much more.",
-      url: '/images/ILoveLamp.png',
-    tags: ['UE4', 'UE5', 'C++', 'Blueprints']
   },
 ];
 
@@ -396,6 +396,11 @@ export const languages: Skill[] = [
   },
   {
     Icon: BsCircleFill,
+    name: "UE4/UE5 C++",
+    level: "70",
+  },
+  {
+    Icon: BsCircleFill,
     name: "SSMS",
     level: "70",
   },
@@ -412,11 +417,6 @@ export const languages: Skill[] = [
   {
     Icon: BsCircleFill,
     name: "Typescript",
-    level: "60",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "UE4 C++",
     level: "60",
   },
   {
@@ -503,7 +503,7 @@ export const projects: IProject[] = [
     deployed_url: "https://test.admin.earthscout.com",
     github_url: "https://github.com/csharpener22/B2C-IEF-Custom-Policies-LocalwithTOS.git",
     category: ["angular"],
-    key_techs: ["Angular 10+", "d3.js", "Material UI", "CSS"],
+    key_techs: ["Angular 10+", "Azure AAD", "d3.js", "Material UI", "CSS", "C# .NET"],
   },
   {
     name: "B2C Login Policies",
@@ -513,44 +513,39 @@ export const projects: IProject[] = [
     category: ["azure"],
     description:
       "Login page displaying the implementation of B2C IEF custom login policies - implementing Terms of Use acceptance on all User Flows. Example set of policies (similar but not the same) hosted on github.",
-    key_techs: ["Azure", "B2C", "HTML", "CSS"],
+    key_techs: ["Azure AAD", "B2C", "HTML", "CSS", "Identity Experience Framework"],
   },
 
   {
     name: "Generative Characters",
     image_path: "/images/generative-art-cover.png",
-    deployed_url: "https://dev-talks.herokuapp.com/",
-    github_url: "https://github.com/csharpener22/B2C-IEF-Custom-Policies-LocalwithTOS.git",
-    category: ["node", "mongo", "react"],
+    deployed_url: "!#",
+    github_url: "!#",
+    category: ["node"],
     description:
-      "Social Media app for developers who can share project,create posts,etc...",
+      "This is a project I'm currently working on to generate 2d characters randomly based on a set of swappable character types and assets. This project is not hosted on Github yet.",
     key_techs: [
-      "React",
-      "Redux",
-      "Node",
-      "Express",
-      "Mongo",
-      "REST API",
-      "Bootstrap",
+      "Node.JS",
+      "Photoshop"
     ],
   },
 
   {
     name: "Next.js Portfolio",
     image_path: "/images/self.png",
-    deployed_url: "https://sumit-chat.netlify.app/",
-    github_url: "https://github.com/csharpener22/B2C-IEF-Custom-Policies-LocalwithTOS.git",
+    deployed_url: "https://next-js-dev-portfolio.vercel.app/projects",
+    github_url: "https://github.com/csharpener22/next-js-dev-portfolio",
     category: ["node", "react"],
     description:
       "The Code for how this repo was built",
-    key_techs: ["React", "Node", "Express", "Socket", "Bootstrap"],
+    key_techs: ["React", "Node", "Tailwind"],
   },
 
   {
     name: "The Poster Children",
     image_path: "/images/tpc-main.png",
     deployed_url: "http://www.theposterchildren.com/",
-    github_url: "https://github.com/csharpener22/B2C-IEF-Custom-Policies-LocalwithTOS.git",
+    github_url: "https://github.com/csharpener22",
     category: ["wordpress"],
     description:
       "A website that encapsulates a big idea that's being worked on for an automated online blockchain experience.",
@@ -561,7 +556,7 @@ export const projects: IProject[] = [
     name: "Third Eye Equestrian",
     image_path: "/images/Logo_ThirdEyeEquestrian_Desktops.png",
     deployed_url: "http://www.thirdeyeequestrian.com/",
-    github_url: "https://github.com/csharpener22/B2C-IEF-Custom-Policies-LocalwithTOS.git",
+    github_url: "https://github.com/csharpener22",
     category: ["wordpress"],
     description:
       "A wordpress website that's under construction for a forward thinking equestrian business.",
@@ -579,20 +574,18 @@ export const projects: IProject[] = [
     key_techs: ["Blockchain", "Plutus", "Haskel"],
   },
   {
-    name: "(Ethereum) Solidity Contracts",
-    image_path: "/images/solidity.png",
-    deployed_url: "https://not-utube.web.app/",
-    github_url: "https://github.com/csharpener22/B2C-IEF-Custom-Policies-LocalwithTOS.git",
-    category: ["blockchain"],
+    name: "Unreal Engine 4/5",
+    image_path: "/images/ue5.png",
+    deployed_url: "!#",
+    github_url: "!#",
+    category: ["unrealengine"],
     description:
-      'Full(almost) Functional YouTube replica where one can login with his/her youtube account to enjoy "not-YouTube".User can like a video,comment on a video & Much More ',
+      'Utilizing best practices for UE4 C++ clean code architecture including public/private folders for headers and source files, events/delegates for broadcasting events to the UI, and OOP principles like inheritance/polymorphism.',
     key_techs: [
-      "React",
-      "Redux",
-      "Blockchain",
-      "YouTube API",
-      "Sass",
-      "Bootstrap",
+      "UE5",
+      "UE4",
+      "C++",
+      "Blueprints",
     ],
   },
   {

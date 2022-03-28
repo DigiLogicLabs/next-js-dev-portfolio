@@ -56,7 +56,7 @@ const Sidebar = () => {
         <motion.a
           whileHover={{ scale: 1.3 }}
           whileTap={{ scale: 0.9 }}
-          href="/assets/conner-soligny-resume.pdf"
+          href="/SoftwareResume_ConnerSoligny.pdf"
           download="Conner Soligny Resume.pdf"
         >
           <GiTie className="w-8 h-8 m-auto cursor-pointer" />
@@ -111,7 +111,7 @@ const Sidebar = () => {
       <motion.a
           whileHover={{ scale: 1.3 }}
           whileTap={{ scale: 0.9 }}
-        href="/assets/ConnerSoligny.pdf"
+        href="/SoftwareResume_ConnerSoligny.pdf"
         download="Conner Soligny Resume.pdf"
         className="flex items-center justify-center px-2 py-1 my-2 bg-gray-200 cursor-pointer dark:bg-dark-200 dark:bg-black-500 font-hpr"
       >
